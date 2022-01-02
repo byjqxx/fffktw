@@ -11,7 +11,8 @@ cat << EOF > /etc/config.json
         "decryption": "none",
         "clients": [
           {
-            "id": "$UUID"
+            "id": "$UUID",
+            "alterId": 0,
           }
         ]
       },
